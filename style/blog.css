@@ -233,6 +233,132 @@ header{
 }
 /* end the section-3-div */
 
+.section-3-div-1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section-3-div-2{
+    width: 573px;
+    height: 284px;
+    background-color: #fbb46317;
+    border-radius: 8px;
+    
+}
+.section-3-div-3{
+    width: 573px;
+    height: 284px;
+    background-color: #29cdf644;
+    border-radius: 8px;
+}
+
+.section-3-div-5{
+    display: flex;
+    justify-content: center;
+}
+.section-3-div-4{
+    margin-top: 20px;
+    width: 573px;
+    height: 284px;
+    background-color: #fbb46317;
+    border-radius: 8px;
+}
+.section-3-div-1 h2{
+    padding-left: 20px;
+    padding-top: 80px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.section-3-div-1 p{
+ font-size: 16px;
+ padding-left: 20px;
+}
+
+.section-3-div-5 h2{
+    padding-left: 20px;
+    padding-top: 80px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.section-3-div-5 p{
+    font-size: 16px;
+    padding-left: 20px;
+}
+/* section  3 end*/
+
+/* section 4 start */
+.section-4-div{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.section-4-div h1{
+    font-size: 40px;
+    font-weight: 800;
+} 
+.section-4-div p{
+    font-size: 16px;
+    font-weight: 500;
+}
+/* end teh section-4-div */
+.section-4-div-1{
+    display: flex;
+    justify-content: center;
+}
+.section-4-div-2{
+    background-image: url('../Images/Group\ 39.png');
+    width: 1170px;
+    height: 500px;
+    margin-top: 60px;
+
+}
+.section-4-div-3{
+    width: 579px;
+    height: 389px;
+    background-color: #ffffffc2;
+    margin-top: 60px;
+    border-radius: 8px;
+    
+
+}
+.section-4-div-3 .paragraph{
+    padding-top: 30px;
+    padding-right: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.section-4-div-3 h1{
+    padding-left: 50px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.section-4-div-3 p{
+    padding-left: 50px;
+
+}
+C button{
+    margin-left: 50px;
+}
+.section-4-div-3-btn{
+    width: 150px;
+    height: 52px;
+    background-color: #FF5400;
+    color: #fff;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.section-4-div-4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 
 
@@ -366,9 +492,50 @@ header{
         font-size: 24px;
         font-weight: 500;
     }
+    /* section 3 */
+    .section-3-div h1{
+        font-size:20px ;
+        font-weight: 600;
+    }
+    .section-3-div p{
+        width: 309px;
+        height: 72px;
+    }
+    .section-3-div-1{
+        flex-direction: column;
+    }
+    .section-3-div-5{
+        flex-direction: column;
+    }
+    /* section- 4 */
+    .section-4-div-2{
+        background-image: url('../Images/Group\ 39.png');
+        width: 335px;
+        height: 500px;
+        margin-top: 10px;
     
+    }
+    .section-4-div-3{
+        width: 303px;
+        height: 297px;
+
+    }
+    .section-4-div-3 p{
+        padding-left: 0px;
+
+}
+.section-4-div-3 h1{
+    font-size: 20px;
+    width: 155px;
+    height: 25px;
+}
+.section-4-div-3 p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 254px;
+    height: 48px;
+}
 
 
-    
 
 }
