@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
-
+*{
+    margin: 0;
+}
 body{
     font-family: 'Mulish', serif;
 }
@@ -520,12 +522,29 @@ border-radius: 16px;
 .section-6-div-5{
     margin-top: 293px;
 }
-.section-6-div-2 hr{
+.section-6-div-2  hr{
     width: 393px;
 }
-
-
-
+/* footer */
+.footer{
+    margin-top: 100px;
+    background-color: #13131818;
+    height: 502px;
+}
+.footer-1{
+ text-align: center;
+ padding-top: 100px;
+ width: 240.67px;
+ height: 40px;
+    
+}
+footer P{
+    text-align: center;
+    padding-top: 20px;
+    
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 @media screen and (max-width:576px) {
@@ -857,7 +876,7 @@ border-radius: 16px;
 .section-6-div-4{
     background-image: url('../Images/Rectangle\ 8\ \(1\).png');
     width: 355px;
-    height: 3002px;
+    height: 300px;
     border-radius: 16px;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -877,9 +896,22 @@ border-radius: 16px;
         
     }
     .section-6-div-5{
-        margin-top: 293px;
+        margin-top: 170px;
     }
-
-
+/* footer */
+.footer-1{
+    text-align: center;
+    padding-top: 100px;
+    width: 240.67px;
+    height: 40px;
+    margin: 0 auto;
+       
+   }
+   footer {
+    width: 375px;
+    height: 309px;
+    margin: 0 auto;
+    border-radius: 8px;
+   }
 
 }
